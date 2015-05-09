@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a93346-166e-460f-98d4-3c2f710d6e65" name="Default" comment="" />
-    <ignored path="Day3-Day2Review.iws" />
+    <list default="true" id="e9ba9b42-f1e7-411d-bdea-705b5bd12564" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DayThree/js/script.js" afterPath="$PROJECT_DIR$/../DayThree/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DayThree/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DayThree/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sdi-lab2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sdi-lab2/.idea/workspace.xml" />
+    </list>
+    <ignored path="sdi-lab3.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,47 +21,51 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Day3-Day2Review" />
+    <favorites_list name="sdi-lab3" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Day3Day2review.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day3Day2review.html">
+      <file leaf-file-name="Roberts_Timothy_Lab3.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Roberts_Timothy_Lab3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.26494566">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day3Day2review.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day3Day2review.js">
+      <file leaf-file-name="sdi-lab3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sdi-lab3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46875">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sdi.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sdi.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Html5" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day3Day2review.html" />
-        <option value="$PROJECT_DIR$/Day3Day2review.js" />
+        <option value="$PROJECT_DIR$/sdi.css" />
+        <option value="$PROJECT_DIR$/sdi-lab3.html" />
+        <option value="$PROJECT_DIR$/Roberts_Timothy_Lab3.js" />
       </list>
     </option>
   </component>
@@ -74,7 +82,7 @@
     <option name="width" value="1400" />
     <option name="height" value="833" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -97,34 +105,33 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day3-Day2Review" />
+              <option name="myItemId" value="sdi-lab3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day3-Day2Review" />
+              <option name="myItemId" value="sdi-lab3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day3-Day2Review" />
+              <option name="myItemId" value="sdi-lab3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -163,10 +170,10 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f6a93346-166e-460f-98d4-3c2f710d6e65" name="Default" comment="" />
-      <created>1431177256469</created>
+      <changelist id="e9ba9b42-f1e7-411d-bdea-705b5bd12564" name="Default" comment="" />
+      <created>1431190660334</created>
       <option name="number" value="Default" />
-      <updated>1431177256469</updated>
+      <updated>1431190660334</updated>
     </task>
     <servers />
   </component>
@@ -201,21 +208,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day3Day2review.html">
+    <entry file="file://$PROJECT_DIR$/sdi.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3Day2review.js">
+    <entry file="file://$PROJECT_DIR$/sdi-lab3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46875">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Roberts_Timothy_Lab3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26494566">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
