@@ -1,4 +1,4 @@
-alert("JavaScript works!");
+// alert("JavaScript works!");
 
 /*
 Timothy Roberts
@@ -9,7 +9,7 @@ Lab 2: Variables and Outputs
 
 // These are my variables.
 var myTransportation = "Bike";
-var howToGetSchool = " I will need to \"pedal\"";
+var howToGetSchool = " I will need to \"pedal\"";    // "\"Course Director\"";
 var minutesToSchool = 20;
 var itTakesOnly = true;
 minutesToSchool = prompt ("Can it be as fast as 5 minutes to arrive to school?");
