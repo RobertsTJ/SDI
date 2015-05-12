@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ba9b42-f1e7-411d-bdea-705b5bd12564" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sdi-lab4-logic/Roberts_Timothy_Logic4.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sdi-lab4-logic/Roberts_Timothy_Logic4.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sdi-lab4-logic/Truth_tables.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../sdi-lab4-logic/logic-tables.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../sdi-lab4-logic/sdi-lab4-logic.html" afterPath="$PROJECT_DIR$/../sdi-lab4-logic/Roberts_Timothy_Logic4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sdi-lab4-logic/sdi.css" afterPath="$PROJECT_DIR$/../sdi-lab4-logic/sdi.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../sdi-lab4-errors/find-the-errors.js" afterPath="$PROJECT_DIR$/../Roberts_Timothy_lab4errors/find-the-errors.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../sdi-lab4-errors/sdi-lab4-errors.html" afterPath="$PROJECT_DIR$/../Roberts_Timothy_lab4errors/find-the-errors.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../sdi-lab4-errors/sdi.css" afterPath="$PROJECT_DIR$/../Roberts_Timothy_lab4errors/sdi.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9483e044-c11a-4d57-9bec-bc24cc22cff4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdi-lab4-logic/Truth_tables.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdi-lab4-logic/logic-tables.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sdi-lab4-logic/sdi-lab4-logic.html" afterPath="$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdi-lab4-logic/sdi.css" afterPath="$PROJECT_DIR$/sdi-lab4-logic/sdi.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdi-lab4-errors/find-the-errors.js" afterPath="$PROJECT_DIR$/Roberts_Timothy_lab4errors/find-the-errors.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdi-lab4-errors/sdi-lab4-errors.html" afterPath="$PROJECT_DIR$/Roberts_Timothy_lab4errors/find-the-errors.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdi-lab4-errors/sdi.css" afterPath="$PROJECT_DIR$/Roberts_Timothy_lab4errors/sdi.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdi-lab3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/sdi-lab3/.idea/workspace.xml" />
     </list>
@@ -30,11 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DayFour/js/script.js">
+      <file leaf-file-name="find-the-errors.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Roberts_Timothy_lab4errors/find-the-errors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.105337076">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find-the-errors.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Roberts_Timothy_lab4errors/find-the-errors.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -42,33 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Roberts_Timothy_Logic4.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <marker date="1431458565000" expanded="true" signature="605:1031" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sdi.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdi-lab4-logic/sdi.css">
+        <entry file="file://$PROJECT_DIR$/Roberts_Timothy_lab4errors/sdi.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Roberts_Timothy_Logic4.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4213483">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,6 +81,10 @@
         <option value="$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.js" />
         <option value="$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.html" />
         <option value="$PROJECT_DIR$/sdi-lab4-logic/sdi.css" />
+        <option value="$PROJECT_DIR$/sdi-lab4-errors/Roberts_Timothy_lab4errors.html" />
+        <option value="$PROJECT_DIR$/sdi-lab4-errors/Roberts_Timothy_lab4errors.js" />
+        <option value="$PROJECT_DIR$/Roberts_Timothy_lab4errors/Roberts_Timothy_lab4errors.js" />
+        <option value="$PROJECT_DIR$/Roberts_Timothy_lab4errors/find-the-errors.js" />
       </list>
     </option>
   </component>
@@ -164,21 +153,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sdi-lab4-logic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdi-lab4-errors" />
+              <option name="myItemId" value="Roberts_Timothy_lab4errors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,9 +293,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4213483">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdi-lab4-logic/sdi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5298913">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0394021">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1431458565000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DayFour/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.020380436">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -328,28 +329,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.js">
+    <entry file="file://$PROJECT_DIR$/Roberts_Timothy_lab4errors/find-the-errors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <marker date="1431458565000" expanded="true" signature="605:1031" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdi-lab4-logic/sdi.css">
+    <entry file="file://$PROJECT_DIR$/Roberts_Timothy_lab4errors/sdi.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdi-lab4-logic/Roberts_Timothy_Logic4.html">
+    <entry file="file://$PROJECT_DIR$/Roberts_Timothy_lab4errors/find-the-errors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4213483">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.105337076">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding />
         </state>
       </provider>
