@@ -28,19 +28,30 @@ function minus(numMinus1, numMinus2) {
     return subtract
 }
 
+// Function 3 for multiplication
+function times(numTimes1, numTimes2) {
+    var multiply = numTimes1 * numTimes2;
+
+    return multiply
+}
+
 
 // Main code
 
 // Addition
 if (symbol === "+") {
     total = addition(input1, input2);
-    console.log("Your answer is " + total + ".");
+    console.log("You input " + input1 + " + " + input2 + " and that = " + total + ".");
 
 
-//Subtraction
+// Subtraction
 } else if (symbol === "-") {
     total = minus(input1,input2);
-    console.log("Your answer is " + total + ".");
-    
+    console.log("You input " + input1 + " - " + input2 + " and that = " + total + ".");
+
+// Multiplication
+} else if (symbol === "*"){
+    total = times(input1, input2);
+    console.log("You input " + input1 + " * " + input2 + " and that = " + total + ".");
 }
 
