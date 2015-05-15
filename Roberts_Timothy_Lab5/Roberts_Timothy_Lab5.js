@@ -70,8 +70,13 @@ if (symbol === "+") {
     console.log("You input " + input1 + " / " + input2 + ", it = " + total + ".");
 
         if (symbol === "/" && input2 === 0) {
-            total = console.log("You can't divide a number by 0. Please try again.");
+            total = console.log("You can't divide a number by 0");
         }
+
+} else {
+    // If user has input a invalid operation.
+    console.log("You have entered a invalid function. Please try again. ")
+
 }
 
 // End
