@@ -9,16 +9,15 @@
 
 
 
-// Global Variables
-
+// Start
 
 
 // Function
 function myFavoriteStates() {
 
     // Local Variables
-    var stateArray = [ "Wisconsin", "Virginia", "California", "Montana", "Florida" ];
-    var favoritePlacesArray = [ "Green Bay", "Virginia Beach", "Santa Monica", "Missoula", "Pompano Beach" ];
+    var stateArray = [ "Wisconsin", "California", "Virginia", "Montana" ];
+    var favoritePlacesArray = [ "Green Bay", "Santa Monica", "Virginia Beach", "Missoula" ];
 
 
 
@@ -28,11 +27,29 @@ function myFavoriteStates() {
         // Stating that favoritePlacesArray is in stateArray and it's my favorite city.
         console.log(favoritePlacesArray[i] + " is my favorite city in " + stateArray[i] + ".");
 
+
+    }
+
+    // Array Methods
+    stateArray.push("Florida");
+    favoritePlacesArray.push("Pompano Beach");
+
+    for(var i = 0 ; i < stateArray.length; i++) {
+
+        // Stating that favoritePlacesArray is in stateArray and it's my favorite city with the .push array method.
+        console.log(favoritePlacesArray[i] + " is my favorite city in " + stateArray[i] + ".");
     }
 }
+
+
+
 
 // Function Call
 myFavoriteStates();
 
+
+
 // Output
-console.log("These are my favorite cities in these states.")
+console.log("These are my favorite cities in these states.");
+
+// End
