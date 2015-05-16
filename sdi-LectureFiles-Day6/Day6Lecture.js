@@ -28,7 +28,7 @@ function myAverageFunction() {
 
 
         }
-    
+
         // Average of the total
         average = addNum / numberArray.length;
 
