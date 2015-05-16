@@ -10,36 +10,29 @@
 
 
 // Global Variables
-var returnPlaceAndState;
+
 
 
 // Function
 function myFavoriteStates() {
 
     // Local Variables
-
     var stateArray = [ "Wisconsin", "Virginia", "California", "Montana", "Florida" ];
-    var favoritePlacesArray = [ "Lambeau Field", "Virginia Beach", "Santa Monica Pier", "Glacier National Park", "Pompano Beach" ];
-    var addState;
-    var placeAndState;
+    var favoritePlacesArray = [ "Green Bay", "Virginia Beach", "Santa Monica", "Missoula", "Pompano Beach" ];
+
 
 
     // For loop through the elements of the array
-    for(var i = addState ; i < stateArray.length; i++) {
+    for(var i = 0 ; i < stateArray.length; i++) {
 
-        addState + stateArray[i];
-
+        // Stating that favoritePlacesArray is in stateArray and it's my favorite city.
+        console.log(favoritePlacesArray[i] + " is my favorite city in " + stateArray[i] + ".");
 
     }
-
-    // Average of the total
-    placeAndState = addState / stateArray.length;
-
-    // Return the final average
-    return (placeAndState);
-
 }
 
-returnPlaceAndState = myFavoriteStates();
+// Function Call
+myFavoriteStates();
 
-console.log("My favorite places in these states are " + returnPlaceAndState + ".");
+// Output
+console.log("These are my favorite cities in these states.")
