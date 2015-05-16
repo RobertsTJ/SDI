@@ -20,16 +20,14 @@ function myFavoriteStates() {
     var favoritePlacesArray = [ "Green Bay", "Santa Monica", "Virginia Beach", "Missoula" ];
 
 
-
     // For loop through the elements of the array
     for(var i = 0 ; i < stateArray.length; i++) {
 
         // Stating that favoritePlacesArray is in stateArray and it's my favorite city.
         console.log(favoritePlacesArray[i] + " is my favorite city in " + stateArray[i] + ".");
-
-
     }
 
+    
     // Array Methods
     stateArray.push("Florida");
     favoritePlacesArray.push("Pompano Beach");
@@ -41,15 +39,7 @@ function myFavoriteStates() {
     }
 }
 
-
-
-
 // Function Call
 myFavoriteStates();
-
-
-
-// Output
-console.log("These are my favorite cities in these states.");
 
 // End
