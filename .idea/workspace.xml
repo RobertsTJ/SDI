@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9483e044-c11a-4d57-9bec-bc24cc22cff4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdi-LectureFiles-Day6/Day6Lecture.js" afterPath="$PROJECT_DIR$/sdi-LectureFiles-Day6/Day6Lecture.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Roberts_Timothy_Lab5/Roberts_Timothy_Lab5.js" afterPath="$PROJECT_DIR$/Roberts_Timothy_Lab5/Roberts_Timothy_Lab5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="Day6Lecture.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day6/Day6Lecture.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9564586">
-              <caret line="126" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3701016">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -97,8 +95,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="34" />
+    <option name="x" value="25" />
+    <option name="y" value="31" />
     <option name="width" value="1400" />
     <option name="height" value="833" />
   </component>
@@ -229,7 +227,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="34" width="1400" height="833" extended-state="0" />
+    <frame x="25" y="31" width="1400" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -455,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day6/Day6Lecture.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9564586">
-          <caret line="126" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3701016">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
