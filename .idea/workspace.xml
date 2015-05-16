@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9483e044-c11a-4d57-9bec-bc24cc22cff4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdi-LectureFiles-Day6/Day6Lecture.js" afterPath="$PROJECT_DIR$/sdi-LectureFiles-Day6/Day6Lecture.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Roberts_Timothy_Lab5/Roberts_Timothy_Lab5.js" afterPath="$PROJECT_DIR$/Roberts_Timothy_Lab5/Roberts_Timothy_Lab5.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SDI.iws" />
@@ -27,27 +29,17 @@
         <entry file="file://$PROJECT_DIR$/Roberts_Timothy_Lab5/Roberts_Timothy_Lab5.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sdi-Day6.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day6/sdi-Day6.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2932331">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Day6Lecture.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Day6Lecture.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day6/Day6Lecture.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9564586">
+              <caret line="126" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -90,9 +82,9 @@
         <option value="$PROJECT_DIR$/sdi-lab5/Roberts_Timothy_Lab5.js" />
         <option value="$PROJECT_DIR$/Roberts_Timothy_Lab5/Roberts_Timothy_Lab5.html" />
         <option value="$PROJECT_DIR$/Roberts_Timothy_Lab5/sdi.css" />
-        <option value="$PROJECT_DIR$/Roberts_Timothy_Lab5/Roberts_Timothy_Lab5.js" />
         <option value="$PROJECT_DIR$/sdi-LectureFiles-Day6/sdi.css" />
         <option value="$PROJECT_DIR$/sdi-LectureFiles-Day6/sdi-Day6.html" />
+        <option value="$PROJECT_DIR$/Roberts_Timothy_Lab5/Roberts_Timothy_Lab5.js" />
         <option value="$PROJECT_DIR$/sdi-LectureFiles-Day6/Day6Lecture.js" />
       </list>
     </option>
@@ -163,20 +155,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sdi-LectureFiles-Day6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Roberts_Timothy_Lab5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,6 +316,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -366,6 +347,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5706522">
           <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -415,6 +399,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.08853411">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -452,29 +437,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day6/Day6Lecture.js">
+    <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day6/sdi-Day6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.45112783">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Roberts_Timothy_Lab5/Roberts_Timothy_Lab5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day6/sdi-Day6.html">
+    <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day6/Day6Lecture.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2932331">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="0.9564586">
+          <caret line="126" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

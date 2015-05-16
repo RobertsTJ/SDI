@@ -16,6 +16,7 @@ var total;
 var symbol = prompt("Do you want to + , - , * , or /? ");
 
 
+
 // Function 1 for addition
 function addition(numAdd1, numAdd2) {
     var plus =  numAdd1 + numAdd2;
