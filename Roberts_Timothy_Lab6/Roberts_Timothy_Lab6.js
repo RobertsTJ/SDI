@@ -27,7 +27,7 @@ function myFavoriteStates() {
         console.log(favoritePlacesArray[i] + " is my favorite city in " + stateArray[i] + ".");
     }
 
-    
+
     // Array Methods
     stateArray.push("Florida");
     favoritePlacesArray.push("Pompano Beach");
