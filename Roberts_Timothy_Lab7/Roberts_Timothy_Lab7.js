@@ -15,20 +15,27 @@ var returnedArray = [];
 
 
 // Functions
-function bubbleSort(numArg) {
+function bubbleSort(numArgArray) {
 
     // Local Variables
-    var newArray = [];
-
+    var holdNum;
 
     for (var i = 0; i < set1.length; i++) {
+        for (var t = 0; t < set1.length; t++)
 
+        if (set1[t] > set1[t+1]) {
+            holdNum = numArgArray[t];
+            numArgArray[t] = numArgArray[t+1];
+            numArgArray[t+1] = holdNum;
 
-
+        }
     }
 
-    console.log(numArg);
+    // console.log(numArgArray);
+    return numArgArray;
 }
 
-// main code
-bubbleSort(set1);
+// Main Code
+returnedArray = bubbleSort(set1);
+console.log("The new order of the array is: " + returnedArray);
+
