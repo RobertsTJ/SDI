@@ -20,6 +20,7 @@ function bubbleSort(numArgArray) {
     // Local Variables
     var holdNum;
 
+    // For Loops
     for (var i = 0; i < numArgArray.length; i++) {
         for (var t = 0; t < numArgArray.length; t++)
 
@@ -31,12 +32,10 @@ function bubbleSort(numArgArray) {
         }
     }
 
-
-
-
     // console.log(numArgArray);
     return numArgArray;
 }
+
 
 // Main Code
 returnedArray = bubbleSort(set1);
@@ -44,13 +43,15 @@ returnedArray = bubbleSort(set1);
 for (var w = 0; w < 3; w++) {
     if (w === 0) {
         returnedArray = bubbleSort(set1);
-        console.log("The new order of the array is: " + returnedArray);
+
     }if (w === 1) {
         returnedArray = bubbleSort(set2);
-        console.log("The new order of the array is: " + returnedArray);
+
     }if (w === 2) {
         returnedArray = bubbleSort(set3);
-        console.log("The new order of the array is: " + returnedArray);
+
     }
 
+    // Output
+    console.log("The new order of the array is: " + returnedArray);
 }
