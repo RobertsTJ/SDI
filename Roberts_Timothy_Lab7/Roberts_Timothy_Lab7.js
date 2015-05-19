@@ -12,9 +12,7 @@
 // Global Variables
 var set1 = [10, 6, 7, 3, 12, 5];
 var set2 = [25, 100, 4, 22, 16, 105, 2, 7];
-
-var returnedArray = [];
-
+var set3 = [2, 3, 4, 1, 10, 27, 32, 51, 6, 100, 8, 42];
 
 // Functions
 function bubbleSort(numArgArray) {
@@ -44,14 +42,16 @@ function bubbleSort(numArgArray) {
 returnedArray = bubbleSort(set1);
 console.log("The new order of the array is: " + returnedArray);
 
-for (var i = 0; i < 3; i++) {
-    if (w = 1) {
+for (var w = 0; w < 3; w++) {
+    if (w === 0) {
         returnedArray = bubbleSort(set1);
         console.log("The new order of the array is: " + returnedArray);
-    }if ( w = 2) {
+    }if (w === 1) {
         returnedArray = bubbleSort(set2);
         console.log("The new order of the array is: " + returnedArray);
+    }if (w === 2) {
+        returnedArray = bubbleSort(set3);
+        console.log("The new order of the array is: " + returnedArray);
     }
-
 
 }
