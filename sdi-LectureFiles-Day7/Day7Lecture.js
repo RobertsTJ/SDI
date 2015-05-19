@@ -7,10 +7,8 @@
 // alert("JavaScript works!");
 
 // Global Variable
-var numberArray = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+var numberArray = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ];
 var returnedArray = [];
-
-
 
 var userPrompt = prompt("Enter 'odd' to return odd numbers or 'even' to return even numbers.");
 
