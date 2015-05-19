@@ -48,8 +48,10 @@ for (var i = 0; i < 3; i++) {
     if (w = 1) {
         returnedArray = bubbleSort(set1);
         console.log("The new order of the array is: " + returnedArray);
+    }if ( w = 2) {
+        returnedArray = bubbleSort(set2);
+        console.log("The new order of the array is: " + returnedArray);
     }
-
 
 
 }
