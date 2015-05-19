@@ -40,7 +40,6 @@ function bubbleSort(numArgArray) {
 
 // Main Code
 returnedArray = bubbleSort(set1);
-console.log("The new order of the array is: " + returnedArray);
 
 for (var w = 0; w < 3; w++) {
     if (w === 0) {
