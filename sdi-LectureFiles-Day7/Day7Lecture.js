@@ -19,12 +19,14 @@ while (userPrompt != "odd" && userPrompt != "even") {
 }
 
 // Function
-function evenArray(argArray, oddOrEven) {
+function evenArray(oddOrEven) {
 
     // Local Variables
     var newArray = [];
     var modNum;
     var zeroOrOne;
+    //var newArgArray = new Array(argArray);
+
 
     if (oddOrEven === "odd") {
 
@@ -35,18 +37,22 @@ function evenArray(argArray, oddOrEven) {
 
     }
 
-    for (var i = 0; i < argArray.length; i++) {
+    for (var i = 0; i < numberArray.length; i++) {
 
-        modNum = argArray[i] % 2;
+        modNum = numberArray[i] % 2;
 
         if (modNum === zeroOrOne) {
 
-            newArray.push(argArray[i]);
+            newArray.push(numberArray[i]);
 
 
         }
 
     }
+
+    //argArray.pop();
+    //console.log("argArray: " + argArray);
+    //console.log("newArgArray: " + newArgArray);
 
     return newArray;
 }
@@ -54,8 +60,9 @@ function evenArray(argArray, oddOrEven) {
 // Main Code
 returnedArray = evenArray(numberArray, userPrompt);
 
-console.log("The " + userPrompt + " number array is " + returnedArray + ".");
+console.log("The " + userPrompt + " number array is " + returnedArray);
 
+console.log("numberArray: " + numberArray);
 
 
 
