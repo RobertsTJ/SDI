@@ -91,6 +91,10 @@ function changeCase(caseString) {
 
 
 
+
+
+
+
 // Main Code
 //console.log("The last and first indices are " + wheresAdam(myIndexOf));
 
@@ -106,7 +110,5 @@ function changeCase(caseString) {
 //
 //    console.log(returnedArray[each]);
 
-
-console.log(changeCase(mySplit));
-
-
+// toLowerCase
+//console.log(changeCase(mySplit));
