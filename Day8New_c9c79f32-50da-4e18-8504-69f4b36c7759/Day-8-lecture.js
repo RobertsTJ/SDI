@@ -81,6 +81,15 @@ function splitString(stringToSplit) {
 
 }
 
+function changeCase(caseString) {
+
+    var newString = caseString.toLowerCase();
+
+    return newString;
+
+}
+
+
 
 // Main Code
 //console.log("The last and first indices are " + wheresAdam(myIndexOf));
@@ -89,11 +98,15 @@ function splitString(stringToSplit) {
 
 //console.log("The character at index 6 is " + charAtFunction(myEmail));
 
+////split()
+//var returnedArray = splitString(mySplit);
+//console.log(returnedArray);
+//
+//for (var each in returnedArray) {
+//
+//    console.log(returnedArray[each]);
 
-var returnedArray = splitString(mySplit);
-console.log(returnedArray);
 
-for (var each in returnedArray) {
+console.log(changeCase(mySplit));
 
-    console.log(returnedArray[each]);
-}
+
