@@ -51,6 +51,15 @@ function subStrFunction(hitchArg) {
 
 }
 
+function substrFunction(hitchArg) {
+
+    var everything = hitchArg.substr(24, 5);
+
+    return everything;
+
+}
+
+
 // Main Code
 //console.log("The last and first indices are " + wheresAdam(myIndexOf));
-console.log("We've returned \"" + subStrFunction(mySubString) + "\"");
+console.log("We've returned \"" + substrFunction(mySubString) + "\"");
