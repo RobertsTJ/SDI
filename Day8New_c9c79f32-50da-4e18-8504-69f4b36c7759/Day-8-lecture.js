@@ -51,6 +51,7 @@ function subStrFunction(hitchArg) {
 
 }
 
+//substr
 function substrFunction(hitchArg) {
 
     var everything = hitchArg.substr(24, 5);
@@ -60,6 +61,17 @@ function substrFunction(hitchArg) {
 }
 
 
+//charAt function
+function charAtFunction(emailArg) {
+
+    var atSymbol = emailArg.charAt(6);
+
+    return atSymbol;
+
+}
+
+
 // Main Code
 //console.log("The last and first indices are " + wheresAdam(myIndexOf));
-console.log("We've returned \"" + substrFunction(mySubString) + "\"");
+//console.log("We've returned \"" + substrFunction(mySubString) + "\"");
+console.log("The character at index 6 is " + charAtFunction(myEmail));
