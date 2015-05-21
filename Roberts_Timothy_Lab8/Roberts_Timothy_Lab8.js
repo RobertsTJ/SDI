@@ -7,24 +7,27 @@
 //alert("JavaScript works!");
 
 // Global Variable
-var myString;
+
+var myIndexOf = prompt("Please enter your email address: ", "troberts@fullsail.edu");
 
 // Function
-function correctEmail(argString) {
+function validateEmail(whereIsIt) {
 
     // Local Variables
-    var newString;
-    var strArray;
+    var where = whereIsIt.indexOf("@");
+    var where2 = whereIsIt.indexOf(".");
+    var where3 = whereIsIt.indexOf("");
 
-    newString = argString;
+  
 
-
-    // Test Output
-    console.log(newString);
+    return [where, where2, where3];
 
 }
 
 // Main Code
-ourString = prompt("Please enter your email address: ", "troberts@fullsail.edu");
+validateEmail(myIndexOf);
 
-correctEmail(ourString);
+returnedString = validateEmail(myIndexOf);
+
+console.log("The email has a '@, ., and no spaces. They are located at " + validateEmail(myIndexOf));
+
