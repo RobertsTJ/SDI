@@ -30,6 +30,7 @@ var mySplit = "Now is the time for all good men to come to the aid of the party.
 
 
 // Functions to do string string manipulations
+// index and lastIndexOf
 function wheresAdam(whereIsIt) {
 
     var where = whereIsIt.lastIndexOf("dam");
@@ -38,5 +39,18 @@ function wheresAdam(whereIsIt) {
 
 }
 
+
+// Using substring
+function subStrFunction(hitchArg) {
+
+    var theT = hitchArg.indexOf("t");
+    var theComma = hitchArg.indexOf(",", theT);
+
+    var theUniverse = hitchArg.substring(theT,theComma);
+    return theUniverse;
+
+}
+
 // Main Code
-console.log("The last and first indices are " + wheresAdam(myIndexOf));
+//console.log("The last and first indices are " + wheresAdam(myIndexOf));
+console.log("We've returned \"" + subStrFunction(mySubString) + "\"");

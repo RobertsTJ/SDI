@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9483e044-c11a-4d57-9bec-bc24cc22cff4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day8New_c9c79f32-50da-4e18-8504-69f4b36c7759/Day-8-lecture.js" afterPath="$PROJECT_DIR$/Day8New_c9c79f32-50da-4e18-8504-69f4b36c7759/Day-8-lecture.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day8New_c9c79f32-50da-4e18-8504-69f4b36c7759/sdi-lecture-8.html" afterPath="$PROJECT_DIR$/Day8New_c9c79f32-50da-4e18-8504-69f4b36c7759/sdi-lecture-8.html" />
     </list>
     <ignored path="SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="Day-8-lecture.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day8New_c9c79f32-50da-4e18-8504-69f4b36c7759/Day-8-lecture.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87357956">
-              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.5099432">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -616,8 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day8New_c9c79f32-50da-4e18-8504-69f4b36c7759/Day-8-lecture.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87357956">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.5099432">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
