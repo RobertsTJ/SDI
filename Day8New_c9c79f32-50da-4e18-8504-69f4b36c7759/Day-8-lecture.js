@@ -2,6 +2,8 @@
 //  Day 8 Lecture
 //  Like cats, we're going to play with strings
 
+// alert("JavaScript works!");
+
 // Using .indexOf()
 //  Find if the substring "Adam" appears in the string and where
 var myIndexOf = "Madam, I'm Adam.";
@@ -27,3 +29,14 @@ var myEmail = "llewis@fullsail.com";
 var mySplit = "Now is the time for all good men to come to the aid of the party.";
 
 
+// Functions to do string string manipulations
+function wheresAdam(whereIsIt) {
+
+    var where = whereIsIt.lastIndexOf("dam");
+    var where2 = whereIsIt.indexOf("dam");
+    return [where, where2];
+
+}
+
+// Main Code
+console.log("The last and first indices are " + wheresAdam(myIndexOf));
