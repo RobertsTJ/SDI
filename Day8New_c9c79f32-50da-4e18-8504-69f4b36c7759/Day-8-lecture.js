@@ -71,7 +71,29 @@ function charAtFunction(emailArg) {
 }
 
 
+
+// split()
+function splitString(stringToSplit) {
+
+    var splitArray = stringToSplit.split(" ", 4);
+
+    return splitArray;
+
+}
+
+
 // Main Code
 //console.log("The last and first indices are " + wheresAdam(myIndexOf));
+
 //console.log("We've returned \"" + substrFunction(mySubString) + "\"");
-console.log("The character at index 6 is " + charAtFunction(myEmail));
+
+//console.log("The character at index 6 is " + charAtFunction(myEmail));
+
+
+var returnedArray = splitString(mySplit);
+console.log(returnedArray);
+
+for (var each in returnedArray) {
+
+    console.log(returnedArray[each]);
+}
