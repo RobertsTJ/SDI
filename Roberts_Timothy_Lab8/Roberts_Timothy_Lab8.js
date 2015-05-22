@@ -82,7 +82,6 @@ return 0;
 
 //Main Code
 stringsProblemTwo(firstStr,secondStr,thirdStr);
-
-
+console.log("These are the numbers separated.");
 
 // End
