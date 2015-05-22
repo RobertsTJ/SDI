@@ -6,28 +6,43 @@
 
 //alert("JavaScript works!");
 
-// Global Variable
-
-var myIndexOf = prompt("Please enter your email address: ", "troberts@fullsail.edu");
+// Problem 1
+// Start
+// Global Variables
+var validateEmail = prompt("Please enter a email address: ", "troberts@fullsail.edu");
+var returned;
 
 // Function
-function validateEmail(whereIsIt) {
+function email(argString) {
 
     // Local Variables
-    var where = whereIsIt.indexOf("@");
-    var where2 = whereIsIt.indexOf(".");
-    var where3 = whereIsIt.indexOf("");
+    var oneAt = argString.indexOf("@");
+    var twoAt = argString.lastIndexOf("@");
+    var oneSpace = argString.indexOf(" ");
+    var oneDot = argString.lastIndexOf(".");
 
-  
 
-    return [where, where2, where3];
+    // If Statments
+    if (oneAt == -1) {
+        return false;
 
+    } else if (twoAt != oneAt){
+
+        return false;
+
+    } else if (oneDot == -1) {
+        return false;
+
+    } else if (oneSpace == 0) {
+        return false;
+
+    } else {
+        return true;
+    }
 }
 
-// Main Code
-validateEmail(myIndexOf);
+// Main code
+returned = email(validateEmail);
+console.log(validateEmail + " is a " + returned + " email.");
 
-returnedString = validateEmail(myIndexOf);
-
-console.log("The email has a '@, ., and no spaces. They are located at " + validateEmail(myIndexOf));
-
+// End
