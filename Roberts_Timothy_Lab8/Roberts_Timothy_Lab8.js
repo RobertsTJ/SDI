@@ -50,23 +50,39 @@
 
 
 // Problem 2
+// Start
 // Global Variables
-var string = "t, j, r";
-var oneSep = ",";
-var twoSep = "/";
+var firstStr = "987654321";
+var secondStr = ",";
+var thirdStr = "/";
 
-// Function
-function splitString(argString, sep1, sep2) {
+
+//Function
+function stringsProblemTwo(elementStr,firstSep,secondSep) {
 
     // Local Variables
-    var newString;
+    var fourthString =" ";
 
-    newString = argString.toUpperCase();
+    // For Loop Through Strings
+    for(var element = 0;element < elementStr.length; element++ ){
 
+            fourthString = elementStr[element].concat(firstSep);
+            console.log(fourthString);
+    }
 
-    // Test console to see if code works
-    console.log(newString);
+    // Second Loop
+    for(var element = 0;element < elementStr.length; element++){
 
+        fourthString = elementStr[element].concat(secondSep);
+        console.log(fourthString);
+    }
+
+return 0;
 }
 
-splitString(string);
+//Main Code
+stringsProblemTwo(firstStr,secondStr,thirdStr);
+
+
+
+// End
