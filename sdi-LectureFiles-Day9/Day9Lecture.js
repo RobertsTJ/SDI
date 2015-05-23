@@ -8,16 +8,26 @@
 
 
 
-function mathMethods (max, min) {
-                                // Excludes max and includes min
-    var myRandom = Math.floor(Math.random() * (max - min) + min);
+function mathMethods (argPrompt) {
 
-    console.log(myRandom);
+    // To check to see if it is a number
+    while (isNaN(argPrompt)) {
+
+        argPrompt = prompt("Enter a number please: ");
+
+    }
+
+    var newAge = parseInt(argPrompt);
+
+    console.log(newAge);
 
 }
 
-mathMethods(50, 10);
-mathMethods(50,100);
+
+var myPrompt = prompt("Enter your age: ");
+
+mathMethods(myPrompt);
+
 
 
 
