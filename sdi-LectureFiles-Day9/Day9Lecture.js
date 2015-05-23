@@ -6,8 +6,56 @@
 
 // alert("JavaScript works!");
 
+// Date Objects
+function goodDates() {
+
+    var myDate = "5-23-2015";
+
+    console.log(myDate);
+
+    var newDate = new Date(2015, 4, 23);
+
+    var dayOfWeek = newDate.getDay();
+
+    switch (dayOfWeek) {
+        case 0:
+            dayOfWeek = "Sunday";
+            break;
+        case 1:
+            dayOfWeek = "Monday";
+            break;
+        case 2:
+            dayOfWeek = "Tuesday";
+            break;
+        case 3:
+            dayOfWeek = "Wednesday";
+            break;
+        case 4:
+            dayOfWeek = "Thursday";
+            break;
+        case 5:
+            dayOfWeek = "Friday";
+            break;
+        case 6:
+            dayOfWeek = "Saturday"
+            break;
+    }
 
 
+
+    if (dayOfWeek === 0) {
+        dayOfWeek = "Sunday";
+
+    }
+
+    console.log(dayOfWeek);
+}
+
+
+
+
+
+// Math Methods
 function mathMethods (argPrompt) {
 
     // To check to see if it is a number
@@ -23,10 +71,12 @@ function mathMethods (argPrompt) {
 
 }
 
+// Main Code
+goodDates();
 
-var myPrompt = prompt("Enter your age: ");
+// var myPrompt = prompt("Enter your age: ");
 
-mathMethods(myPrompt);
+// mathMethods(myPrompt);
 
 
 
