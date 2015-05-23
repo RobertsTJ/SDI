@@ -119,12 +119,22 @@ function stringSep(oldString, firstSept, newSept) {
 
     for (var i = 0; i < oldString.length; i++) {
 
-        oldString = oldString.replace(",", "/");
+        if (oldString.substr(i,1) === firstSept) {
+
+            newString = newString + newSept;
+
+        } else {
+
+            newString = newString + oldString.substr(i,1);
+
+
+        }
+
         console.log(newString);
 
     }
 
-    return oldString;
+    return newString;
 
 }
 
