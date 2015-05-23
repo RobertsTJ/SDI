@@ -6,38 +6,6 @@
 
 // alert("JavaScript works!");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Review of lab 8 problem 1
 
 // Create a function
