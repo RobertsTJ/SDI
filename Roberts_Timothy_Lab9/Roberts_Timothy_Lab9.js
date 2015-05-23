@@ -21,7 +21,7 @@
 //function toFixedFunction() {
 //
 //    // Local Variables
-//    num = firstNum.toFixed(2);
+//    var num = firstNum.toFixed(2);
 //
 //    return num;
 //}
