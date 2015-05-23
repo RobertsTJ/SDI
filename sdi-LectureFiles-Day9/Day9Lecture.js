@@ -9,11 +9,25 @@
 // Date Objects
 function goodDates() {
 
-    var myDate = "5-23-2015";
+    var myDate = "5/23/2016";
 
     console.log(myDate);
 
     var newDate = new Date(2015, 4, 23);
+    var secondDate = new Date(myDate);
+
+    console.log(newDate);
+    console.log(secondDate);
+
+    // Find the difference between the dates
+    dateDiff = newDate - secondDate;
+
+    dateDiff = Math.abs(dateDiff / 1000 / 60 / 60 / 24);
+
+    console.log(dateDiff);
+
+
+
 
     var dayOfWeek = newDate.getDay();
 
@@ -50,6 +64,12 @@ function goodDates() {
 
     console.log(dayOfWeek);
 }
+
+
+
+
+
+
 
 
 
