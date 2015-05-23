@@ -127,12 +127,6 @@ goodDates();
 
 
 
-
-
-
-
-
-
 //// Review of lab 8 problem 1
 //
 //// Create a function
@@ -246,3 +240,25 @@ goodDates();
 //// Calls problem 2 function
 //returnedString = stringSep(stringList, first, second);
 //console.log("The new string is " + returnedString);
+
+
+
+
+
+
+var numberInput = prompt("Please enter a number:", 12345);
+var returnedNumber;
+
+while(isNaN(numberInput)){
+
+    numberInput = prompt("Please enter a NUMBER:", 12345);
+
+}
+
+function stringNum(numInp){
+    var strToNum = parseFloat(numInp);
+
+    return strToNum;
+}
+returnedNumber = stringNum(numberInput);
+console.log(returnedNumber);
