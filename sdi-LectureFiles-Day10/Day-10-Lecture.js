@@ -15,5 +15,32 @@
     the input is wrong.  The code will then output that string.
 */
 
+//  Lab 9 Review Problem 1
+// Global Variables
+var firstNumber = prompt("Please enter a number to be converted: ");
+var returnedNumber;
 
+
+// Problem Functions
+
+
+
+
+// Problem 2 function - convert a string to a number
+function convertNumber(argNumber) {
+
+    // If user did not a enter a number, ask again
+    while (isNaN(argNumber)) {
+
+        argNumber = prompt("No, I said enter a number: ");
+
+    }
+
+    return parseFloat(argNumber)
+
+}
+
+// Main Code
+returnedNumber = convertNumber(firstNumber);
+console.log("The returned number is ", returnedNumber);
 
