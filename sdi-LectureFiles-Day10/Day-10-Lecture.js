@@ -4,39 +4,103 @@
      Day 10 Lecture Coding
  */
 
-//// alert("JavaScript works!");
-
-// Day 10 Lecture Coding
-// Create a function to find the difference between to years.
-//  - Prompt to ask for a year
-//  - Return the difference between users entered year and the current year.
-// Output the difference in the main code.
-
 
 // Global Variables
+var numArray = [3, 6, 7, 9, 23, 42, 22, 50, 34];
+var currentNum = 21;
 var returnedNumber;
 
-// Functions
-function yearsBetween() {
+// Function
+function findNumber(argArray, argNumber) {
 
     // Local Variables
-    var yearEntered = parseInt(prompt("What year would you like to use?", "2015"));
-    var today = new Date();
+    var nextGreatest = 0;
+    argArray = bubbleSort(argArray);
+    console.log(argArray);
 
-    today = today.getFullYear();
+    for (var i = 0; i < argArray.length; i++) {
 
+       if (argNumber < argArray[i]) {
 
-    var difference = today - yearEntered;
+           return argArray[i];
+       }
 
-    return difference;
+    }
+
+    return "No greater number in the array.";
 
 }
 
 // Main Code
-returnedNumber = yearsBetween();
-console.log("The difference in years is " + returnedNumber);
+returnedNumber = findNumber(numArray, currentNum);
+console.log("The next highest number is " + returnedNumber);
+
+// Go back to Lab 7 and check out the Day 8 lecture coding and use the bubbleSort function.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//// alert("JavaScript works!");
+
+//// Day 10 Lecture Coding Problem 1
+//// Create a function to find the difference between to years.
+////  - Prompt to ask for a year
+////  - Return the difference between users entered year and the current year.
+//// Output the difference in the main code.
+//
+//
+//// Global Variables
+//var returnedNumber;
+//
+//// Functions
+//function yearsBetween() {
+//
+//    // Local Variables
+//    var yearEntered = parseInt(prompt("What year would you like to use?", "2015"));
+//    var today = new Date();
+//
+//    today = today.getFullYear();
+//
+//
+//    var difference = today - yearEntered;
+//
+//    return difference;
+//
+//}
+//
+//// Main Code
+//returnedNumber = yearsBetween();
+////console.log("The difference in years is " + returnedNumber);
+//
+
+
+// Problem 2
+// Create a Function
+//
 
 
 
