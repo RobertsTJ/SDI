@@ -9,21 +9,43 @@
 
 // Start
 // Global Variables
+var lotteryPrompt = prompt("Would you like to play the Powerball or the Florida Lottery");
 var returnedQuickPick;
 
-
-
 // Function
-function lotteryFunction () {
+function lotteryFunction(argLottery) {
 
     // Local Variables
-    var quickPick = prompt("Would you like to play the Powerball or the Florida Lottery?")
+    var returnNum = [];
 
+    // Conditional
+    if (argLottery === "Powerball") {
+
+        for(var i = 0; i < 5; i++) {
+
+            returnNum.push(Math.round(Math.random() * (59 - 1) + 1));
+        }
+
+        returnNum.push(Math.round(Math.random() * (35 - 1) + 1));
+
+    }
+
+    if (argLottery === "Florida Lottery") {
+
+        for(var i = 0; i < 6; i++) {
+
+            returnNum.push(Math.round(Math.random() * (53 - 1) + 1));
+
+        }
+
+    }
+
+
+    return returnNum;
 
 }
 
 
-
 // Main Code
-returnedQuickPick = lotteryFunction();
+returnedQuickPick = lotteryFunction(lotteryPrompt);
 console.log("Your quick pick numbers are " + returnedQuickPick);
