@@ -11,6 +11,7 @@
 // Global Variables
 var lotteryPrompt = prompt("Would you like to play the Powerball or the Florida Lottery");
 var returnedQuickPick;
+var poppedNumber;
 
 // Function
 function lotteryFunction(argLottery) {
@@ -39,8 +40,7 @@ function lotteryFunction(argLottery) {
         }
 
     }
-
-
+    
     return returnNum;
 
 }
@@ -48,4 +48,9 @@ function lotteryFunction(argLottery) {
 
 // Main Code
 returnedQuickPick = lotteryFunction(lotteryPrompt);
-console.log("Your quick pick numbers are " + returnedQuickPick);
+// console.log("Your quick pick numbers are " + returnedQuickPick);
+
+if (lotteryPrompt === "Powerball") {
+    poppedNumber = returnedQuickPick.pop();
+    console.log("Your numbers for the Powerball are " + returnedQuickPick + " with a Powerball of " + poppedNumber);
+}
