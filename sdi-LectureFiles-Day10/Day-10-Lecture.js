@@ -17,11 +17,20 @@
 
 //  Lab 9 Review Problem 1
 // Global Variables
-var firstNumber = prompt("Please enter a number to be converted: ");
-var returnedNumber;
+// Problem 1
+var numToFormat = parseFloat(prompt("Enter a number to format: "));
+var numOfDecimals = parseInt(prompt("Enter a number of decimal places: "));
+// Problem 2
+// var firstNumber = prompt("Please enter a number to be converted: ");
+// var returnedNumber;
 
 
 // Problem Functions
+// Problem 1 - format a number to a certain number of decimal places
+function decFormat(argNumber,decPlaces) {
+
+    return argNumber.toFixed(decPlaces);
+}
 
 
 
@@ -41,6 +50,12 @@ function convertNumber(argNumber) {
 }
 
 // Main Code
-returnedNumber = convertNumber(firstNumber);
-console.log("The returned number is ", returnedNumber);
+// Main Code Problem 1 function call
+returnedNumber = decFormat(numToFormat, numOfDecimals);
+console.log("The formatted number is", returnedNumber);
+
+
+// Main Code Problem 2
+//returnedNumber = convertNumber(firstNumber);
+// console.log("The returned number is ", returnedNumber);
 
