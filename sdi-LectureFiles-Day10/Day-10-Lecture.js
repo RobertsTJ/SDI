@@ -18,11 +18,15 @@
 //  Lab 9 Review Problem 1
 // Global Variables
 // Problem 1
-var numToFormat = parseFloat(prompt("Enter a number to format: "));
-var numOfDecimals = parseInt(prompt("Enter a number of decimal places: "));
+// var numToFormat = parseFloat(prompt("Enter a number to format: "));
+// var numOfDecimals = parseInt(prompt("Enter a number of decimal places: "));
 // Problem 2
 // var firstNumber = prompt("Please enter a number to be converted: ");
 // var returnedNumber;
+// Problem 3
+var dateOne = new Date("5/23/3015");
+var dateTwo = new Date("5/23/2112");
+var hOrD = "days";
 
 
 // Problem Functions
@@ -49,13 +53,44 @@ function convertNumber(argNumber) {
 
 }
 
+// Problem 3 Function : Find the hours or days between two dates
+function dateDiff(firstDate, secondDate, hoursOrDays) {
+
+    var difference = Math.abs(firstDate - secondDate);
+
+    if (hoursOrDays === "hours") {
+
+        difference = Math.round(difference/1000/60/60);
+
+    } else {
+
+        difference = Math.round(difference/1000/60/60/24);
+
+    }
+
+    return difference;
+}
+
+
+
 // Main Code
 // Main Code Problem 1 function call
-returnedNumber = decFormat(numToFormat, numOfDecimals);
-console.log("The formatted number is", returnedNumber);
+//returnedNumber = decFormat(numToFormat, numOfDecimals);
+// console.log("The formatted number is", returnedNumber);
 
 
 // Main Code Problem 2
 //returnedNumber = convertNumber(firstNumber);
 // console.log("The returned number is ", returnedNumber);
+
+// Main code problem 3 function call
+returnedNumber = dateDiff(dateOne, dateTwo, hOrD);
+
+
+
+    console.log("The difference in " + hOrD + " between " + dateOne.toDateString() + " and " + dateTwo.toDateString() + " is " + returnedNumber);
+
+
+
+
 

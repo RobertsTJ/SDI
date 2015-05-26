@@ -48,8 +48,8 @@
       <file leaf-file-name="Day-10-Lecture.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day10/Day-10-Lecture.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08640227">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state vertical-scroll-proportion="1.9121813">
+              <caret line="90" column="59" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -670,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Roberts_Timothy_Lab9/Roberts_Timothy_Lab9.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day10/sdi-Day10.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4398827">
@@ -686,10 +678,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Roberts_Timothy_Lab9/Roberts_Timothy_Lab9.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sdi-LectureFiles-Day10/Day-10-Lecture.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08640227">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        <state vertical-scroll-proportion="1.9121813">
+          <caret line="90" column="59" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
