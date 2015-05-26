@@ -40,7 +40,7 @@ function lotteryFunction(argLottery) {
         }
 
     }
-    
+
     return returnNum;
 
 }
@@ -53,4 +53,9 @@ returnedQuickPick = lotteryFunction(lotteryPrompt);
 if (lotteryPrompt === "Powerball") {
     poppedNumber = returnedQuickPick.pop();
     console.log("Your numbers for the Powerball are " + returnedQuickPick + " with a Powerball of " + poppedNumber);
+
+} else if (lotteryPrompt === "Florida Lottery") {
+    console.log("Your Florida Lottery quick pick numbers are " + returnedQuickPick);
+
 }
+// End
