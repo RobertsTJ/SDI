@@ -19,7 +19,7 @@ function lotteryFunction(argLottery) {
     // Local Variables
     var returnNum = [];
 
-    // Conditional
+    // If conditional for Powerball
     if (argLottery === "Powerball") {
 
         for(var i = 0; i < 5; i++) {
@@ -30,7 +30,7 @@ function lotteryFunction(argLottery) {
         returnNum.push(Math.round(Math.random() * (35 - 1) + 1));
 
     }
-
+    // If conditional for Florida Lottery
     if (argLottery === "Florida Lottery") {
 
         for(var i = 0; i < 6; i++) {
@@ -38,24 +38,22 @@ function lotteryFunction(argLottery) {
             returnNum.push(Math.round(Math.random() * (53 - 1) + 1));
 
         }
-
     }
 
     return returnNum;
 
 }
 
-
 // Main Code
 returnedQuickPick = lotteryFunction(lotteryPrompt);
-// console.log("Your quick pick numbers are " + returnedQuickPick);
 
+// Conditional if the user chose "Powerball"
 if (lotteryPrompt === "Powerball") {
     poppedNumber = returnedQuickPick.pop();
-    console.log("Your numbers for the Powerball are " + returnedQuickPick + " with a Powerball of " + poppedNumber);
+    console.log("Your quick pick numbers for the Powerball are: " + returnedQuickPick + " with a Powerball of " + poppedNumber + ".");
 
+// Conditional if the user chose "Florida Lottery"
 } else if (lotteryPrompt === "Florida Lottery") {
-    console.log("Your Florida Lottery quick pick numbers are " + returnedQuickPick);
-
+    console.log("Your Florida Lottery quick pick numbers are: " + returnedQuickPick + ".");
 }
 // End
