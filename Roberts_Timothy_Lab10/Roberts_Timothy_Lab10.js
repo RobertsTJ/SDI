@@ -36,12 +36,9 @@ function lotteryFunction(argLottery) {
         for(var i = 0; i < 6; i++) {
 
             returnNum.push(Math.round(Math.random() * (53 - 1) + 1));
-
         }
     }
-
     return returnNum;
-
 }
 
 // Main Code
