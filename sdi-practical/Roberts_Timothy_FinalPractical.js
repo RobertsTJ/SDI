@@ -13,6 +13,8 @@
 // must be numbers. When complete, the function should return an answer, and you should use this to
 // create an output to the console indicating if the number is or is not formatted correctly.
 
+
+
 // Start
 // Global Variables
 var phoneNumber = prompt("Please enter a valid phone number in the following format: xxx-xxx-xxxx ", "123-456-7890");
@@ -22,12 +24,12 @@ var numberTrueOrFalse;
 function checkNumber(argPhone) {
 
    // Local Variables
-   var goodNumber = false;
-   var dashSymbolFirst = argPhone.charAt(3);
-   var dashSymbolLast = argPhone.charAt(7);
+   var goodNumber      = false;
+   var dashSymbolFirst = argPhone.charAt(3).indexOf("-");
+   var dashSymbolLast  = argPhone.charAt(7).lastIndexOf("-");
 
-   // Check to see if dash is in right spot
-   if (dashSymbolFirst === argPhone.charAt(3)) {
+
+   if (dashSymbolFirst === dashSymbolLast && dashSymbolFirst != -1) {
 
       goodNumber = true;
 
@@ -37,7 +39,7 @@ function checkNumber(argPhone) {
 
    }
 
-   if (dashSymbolFirst === argPhone.charAt(7)) {
+   if (dashSymbolLast === dashSymbolFirst && dashSymbolLast != -1) {
 
       goodNumber = true;
 
@@ -50,6 +52,22 @@ function checkNumber(argPhone) {
    return goodNumber;
 }
 
-
+// Main Code
 numberTrueOrFalse = checkNumber(phoneNumber);
 console.log("It is " + numberTrueOrFalse + " that the phone number is valid");
+
+// If phoneNumber is not a number and no spaces
+if (isNaN(phoneNumber) || phoneNumber.indexOf(" ") != -1) {
+
+   phoneNumber = false;
+
+}
+
+// If phoneNumber is longer than the required length or shorter
+if (phoneNumber.length > 11 || phoneNumber.length <= 10) {
+
+   phoneNumber = false;
+
+}
+
+// End
