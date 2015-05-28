@@ -208,7 +208,7 @@ goodDates();
 //
 //    for (var i = 0; i < oldString.length; i++) {
 //
-//        if (oldString.substr(i,1) === firstSept) {
+//        dif (oldString.substr(i,1) === firstSept) {
 //
 //            newString = newString + newSept;
 //

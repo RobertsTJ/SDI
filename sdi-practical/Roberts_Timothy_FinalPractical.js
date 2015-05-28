@@ -13,74 +13,43 @@
 // must be numbers. When complete, the function should return an answer, and you should use this to
 // create an output to the console indicating if the number is or is not formatted correctly.
 
-
-// Create a function
-//
-
-
-
-
 // Start
 // Global Variables
 var phoneNumber = prompt("Please enter a valid phone number in the following format: xxx-xxx-xxxx ", "123-456-7890");
 var numberTrueOrFalse;
-var dashSymbol = "-";
-
 
 // Function
-function problemTwoFunction(phoneNum,dashSym) {
+function checkNumber(argPhone) {
 
    // Local Variables
-   var string = " ";
+   var goodNumber = false;
+   var dashSymbolFirst = argPhone.charAt(3);
+   var dashSymbolLast = argPhone.charAt(7);
 
-   // For loop through string
-   for(var element = 0; element < phoneNum.length; element++) {
+   // Check to see if dash is in right spot
+   if (dashSymbolFirst === argPhone.charAt(3)) {
 
-      string = phoneNum[element].concat(dashSym);
-      console.log(string);
+      goodNumber = true;
+
+   } else {
+
+      return false;
 
    }
 
-   return 0;
+   if (dashSymbolFirst === argPhone.charAt(7)) {
+
+      goodNumber = true;
+
+   } else {
+
+      return false;
+
+   }
+
+   return goodNumber;
 }
 
 
-
-// Main Code
-problemTwoFunction(phoneNumber, dashSymbol);
-console.log("Test");
-
-// End
-
-
-
-
-
-//function myFunction() {
-//   var x, text;
-//
-//   // Get the value of the input field with id="numb"
-//   x = document.getElementById("numb").value;
-//
-//   // If x is Not a Number or less than one or greater than 10
-//   if (isNaN(x) || x < 1 || x > 10) {
-//      text = "Input not valid";
-//   } else {
-//      text = "Input OK";
-//   }
-//   document.getElementById("demo").innerHTML = text;
-//}
-
-
-//function problemTwoFunction(txt, i){
-//
-//   i = i || 0;
-//   if(txt.length != 12) return false;
-//   if(i == txt.length) return true;
-//   if(i == 3 || i == 7){
-//      return txt[i] == "-" ? problemTwoFunction(txt, ++i) : false;
-//   }
-//   return isNaN(parseInt(txt[i], 10)) ? false :problemTwoFunction(txt, ++i);
-//}
-//
-//console.log()
+numberTrueOrFalse = checkNumber(phoneNumber);
+console.log("It is " + numberTrueOrFalse + " that the phone number is valid");
